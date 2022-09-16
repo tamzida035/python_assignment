@@ -8,7 +8,7 @@ import csv
 
 # The Engine is how SQLAlchemy communicates with database
 engine = create_engine('sqlite:////Users/tamzidatarannum/Documents/assign/practice_1/include/rough1/data.db',echo=True)
-
+print("hello")
 # build a random table
 #rand=load_tables.load_table('random',engine)
 #rand.print_mytable_columns()
